@@ -1,6 +1,6 @@
 [package]
 name = "qifi-rs"
-version = "0.3.0"
+version = "0.4.0"
 authors = ["somewheve <somewheve@gmail.com>", "yutiansut <yutian@quantaxis.com.cn>"]
 edition = "2021"
 description = "A fast Api and Structure load"
@@ -17,8 +17,6 @@ serde_bytes = "0.11.17"
 lto = "fat"
 
 
-[[example]]
-name = "mongodbtest"
 
 [[example]]
 name = "single_test"
